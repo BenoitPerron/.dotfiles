@@ -16,7 +16,7 @@ https://news.ycombinator.com/item?id=11071754
     
     
     alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-    echo ".cfg" >> .gitignore
+    echo ".config" >> .gitignore
     git clone --bare <git-repo-url> $HOME/.cfg
     alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
     config checkout
