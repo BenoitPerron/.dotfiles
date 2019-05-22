@@ -7,7 +7,7 @@ URxvt.saveLines: 500
 URxvt.urlLauncher:      firefox
 URxvt.cursorBlink: true
 #URxvt.geometry: 80x20
-URxvt.fading: 25%
+#URxvt.fading: 25%
 urxvt.font:             xft:Bitstream Vera Sans Mono:pixelsize=12
 urxvt.boldFont:         xft:Bitstream Vera Sans Mono:bold:pixelsize=12
 URxvt*background:      #454545
