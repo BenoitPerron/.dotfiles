@@ -30,8 +30,8 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-# bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec konsole
+bindsym $mod+Return exec i3-sensible-terminal
+#bindsym $mod+Return exec konsole
 #bindsym $mod+Return exec urxvt
 #bindsym $mod+Return exec st
 
@@ -159,8 +159,8 @@ bindsym $mod+r mode "resize"
 #exec --no-startup-id ~/.config/i3/nouveau.sh
 exec --no-startup-id ~/.config/i3/screenlayout_new.sh
 #exec --no-startup-id i3-msg 'workspace 1; exec terminator'
-exec --no-startup-id i3-msg 'workspace 1; exec konsole'
-exec --no-startup-id i3-msg 'workspace 2; exec google-chrome-stable'
+exec --no-startup-id i3-msg 'workspace 1; exec i3-sensible-terminal'
+#exec --no-startup-id i3-msg 'workspace 2; exec google-chrome-stable'
 
 exec --no-startup-id "setxkbmap -model pc105 -layout us,ca -variant fr -option grp:alt_shift_toggle"
 
