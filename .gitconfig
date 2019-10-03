@@ -1,3 +1,5 @@
 [user]
 	email = benoitperron@acm.org
 	name = Benoit Perron
+[color]
+	ui = auto
